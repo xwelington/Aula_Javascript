@@ -1,0 +1,49 @@
+<html lang="pt-BR">
+
+<head>
+    <title> Aulas de Javascript  </title>
+    <meta charset="utf-8">
+    <script>
+        function setDoisDigitos (tempo){
+            if (tempo < 10){
+                return "0" + tempo; // acrescenta o 0 nas horas abaixo de 10 ex: "08"
+            }else{
+                return tempo;    
+            }    
+         }
+
+        
+    var agora = new Date();
+        console.log(setDoisDigitos (agora.getHours()) + ":" + setDoisDigitos(agora.getMinutes()) + ":" + setDoisDigitos(agora.getSeconds()));
+    </script>
+    
+    
+</head>
+     <body>
+     
+     </body>
+
+
+</html>
+
+<!-- <html lang="pt-BR">
+
+<head>
+    <title> Aulas de Javascript  </title>
+    <meta charset="utf-8">
+    <script>
+      
+    var agora = new Date();
+        console.log(agora.getHours() + ":" + agora.getMinutes() + ":" + agora.getSeconds());
+    </script>
+    
+    
+</head>
+     <body>
+     
+     </body>
+
+
+</html>
+
+        -->
